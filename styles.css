@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #55286F;
+    color: white;
+  }
+  
+
+  /* Logo Styling */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size of your logo */
+    height: auto;
+    margin-right: 15px; /* Spacing between logo and text/nav links */
+  }
+
+  /* Navigation Styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Spacing between links */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #55286F, #b392ac);
+    color: white;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text h2 span {
+    color: #ffcc66;
+  }
+  
+  .hero-text p {
+    margin: 10px 0;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #55286F;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #f4f4f4;
+    border: 2px solid #55286F;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #55286F;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .footer-container p {
+    margin: 10px 0;
+  }
+  
+  .footer-container a {
+    color: #ffcc66;
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    text-decoration: underline;
+  }
+  
